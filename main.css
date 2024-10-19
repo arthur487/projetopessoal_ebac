@@ -68,6 +68,9 @@ section .image2 {
 #botw:hover {
     color: rgb(255, 200, 83) ;
 }
+#mp:hover {
+    color: rgb(83, 170, 197);
+}
 header {
     position: sticky;
 }
@@ -93,4 +96,33 @@ section h3 {
     color: transparent;
     margin: 80px;
 }
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px 0px;
+    margin-top: 5px;
+}
+footer li {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p {
+    font-size: 10px;
+}
+footer li {
+    font-size: 10px;
+    margin-top: 5px;
+}
+footer a {
+    padding: 20px;
+    background-color:#182c61;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: #3a57a8;
+    cursor: pointer;
+}
+
 
